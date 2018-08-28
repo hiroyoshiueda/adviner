@@ -1,0 +1,8 @@
+ErrorDocument 503 /maintenance.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !=/maintenance.html
+RewriteCond %{REQUEST_URI} !=/fb_page.png
+RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+#RewriteCond %{REMOTE_ADDR} !=49.133.133.159
+RewriteRule ^.*$ - [R=503,L]

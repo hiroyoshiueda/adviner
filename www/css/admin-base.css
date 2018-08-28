@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+	background-color:#ffffff;
+	line-height:120%;
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	font-size:14px;
+}
+img {
+	border:0px;
+}
+hr {
+	background-color:#DDDDDD;
+	border:0 none;
+	height:1px;
+	margin:5px;
+	text-align:left;
+	width:100%;
+}
+i {
+	color:#666;
+}
+h1 {
+	font-size:18px;
+	color:#0000cc;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+textarea {
+	font-size: 14px;
+	padding: 2px;
+}
+.errormsg {
+	background-color: #FFD5D7;
+	border: 1px solid #EFB3B5;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.errormsg-bg {
+	color: #f00;
+	padding: 2px 0px;
+}
+.successmsg {
+	background-color: #F3FFEF;
+	border: 1px solid #E4EFE0;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.notice {
+	color: #666;
+	font-size: 88%;
+	margin-top:2px;
+}
+#menu {
+	margin:10px 0 0 10px;
+	padding:0;
+}
+#menu li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:4px 0;
+}
+#head_line {
+	height:25px;
+	border-top:1px solid #6b90de;
+	background-color:#ebeff9;
+}
+#main_table {
+	margin:0px;
+	padding:0px;
+	border-spacing:5px;
+}
+#list_table {
+	margin:0px;
+	padding:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+#list_table th {
+	padding:5px;
+	background-color:#ebeff9;
+	text-align:left;
+}
+#list_table td {
+	padding:5px;
+	border-bottom:1px solid #ebeff9;
+	vertical-align:top;
+}
+.pager {
+
+}
+.format_pager {
+}
+.pager a {
+	padding:3px 6px;
+}
+.pager a.selected {
+	font-weight:bold;
+}
+#view_table {
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+#view_table td {
+	border-bottom:1px dotted #6b90de;
+	padding:3px;
+}
+#regist_tbl th {
+	border-right: 0px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	paddin: 6px 4px;
+}
+#regist_tbl td {
+	vertical-align: top;
+}
+#regist_tbl input {
+	width: 240px;
+}
+#regist-form {
+	padding:0px 10px;
+}
+#regist-form .regist-tbl th {
+	background-color: #ebeff9;
+	border-right: 0px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	padding: 6px 4px;
+}
+#regist-form .regist-tbl .must {
+	text-align: center;
+	vertical-align: top;
+	width: 30px;
+	padding-top:4px;
+}
+#regist-form .regist-tbl input
+, #regist-form .regist-tbl textarea
+{
+	width: 400px;
+}
+#regist-form .regist-tbl .subname
+{
+	font-weight: bold;
+	color: #666;
+}
+table.form-01 th {
+	background-color: #ebeff9;
+	border-right: 0px;
+	font-weight: bold;
+	font-size: 88%;
+	text-align: left;
+	vertical-align: top;
+	padding: 6px 4px;
+}
+table.form-01 td {
+	vertical-align: top;
+	padding: 6px 4px;
+}
+table.form-01 td.must {
+	width:8px;
+}
+table.form-01 span.must {
+	color: #f00;
+}
+table.form-01 td input
+, table.form-01 td textarea
+{
+	width: 400px;
+}
+table.form-01 td p.subname {
+	font-weight: bold;
+	color: #666;
+	padding-top: 2px;
+}
+table.form-01 td p.exmsg {
+	padding: 2px 0px;
+	font-size: 88%;
+	color: #666;
+}
+#btn-area {
+	background-color: #ebeff9;
+	width: 700px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}

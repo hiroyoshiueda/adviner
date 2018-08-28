@@ -1,0 +1,1 @@
+{$user.profile_msg|makebody nofilter}

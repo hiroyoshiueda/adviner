@@ -1,0 +1,1 @@
+{include file="api/top/consult/api_top_consult_get_list.tpl"}

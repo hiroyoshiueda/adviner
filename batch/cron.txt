@@ -1,0 +1,8 @@
+#日次バッチ for apache
+2 0 * * * /apps/adviner.com/batch/batch.sh BatchDaily
+
+#月次バッチ for apache
+7 0 1 * * /apps/adviner.com/batch/batch.sh BatchMonthly
+
+#mysqlバックアップ for root
+3 3,16 * * * /apps/adviner.com/batch/mysql_backup.sh
